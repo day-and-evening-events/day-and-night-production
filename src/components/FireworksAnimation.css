@@ -1,0 +1,28 @@
+
+.firework {
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  animation: firework 1s ease-out forwards;
+}
+
+@keyframes firework {
+  0% {
+    transform: translateY(0);
+    background: #ffeb3b;
+    box-shadow: 0 0 20px #ffeb3b;
+  }
+  50% {
+    transform: translateY(-50vh);
+  }
+  100% {
+    transform: translateY(-50vh);
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    background: radial-gradient(circle, #ffeb3b, #ff9800, #ff5722);
+    box-shadow: 0 0 40px #ffeb3b, 0 0 60px #ff9800, 0 0 80px #ff5722;
+  }
+}

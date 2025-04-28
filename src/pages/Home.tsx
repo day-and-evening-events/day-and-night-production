@@ -1,6 +1,8 @@
-
 import React, { useEffect } from 'react';
-import { ArrowDown, Music, Users, Star, Award, MapPin, Ticket } from 'lucide-react';
+import { ArrowDown, Music, Users, Star, Award, MapPin, Video, Image } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import Gallery from '../components/Gallery';
+import FireworksAnimation from '../components/FireworksAnimation';
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -31,27 +33,33 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      {/* Fireworks Animation */}
+      <FireworksAnimation />
+      
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] bg-festival-gradient overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-              Lucknow Dandiya <br />
-              Nights <span className="text-festival-yellow">2025</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
+              Lucknow Bollywood <br />
+              Dandiya Night <span className="text-festival-yellow">2025</span><br />
+              <span className="text-2xl md:text-3xl">Season 1</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8">
               Dance, Celebrate, Repeat — Lucknow's Biggest Dandiya Night!
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="btn-festival">Book Your Tickets</button>
+              <Link to="/contact" className="btn-festival">
+                Book Your Tickets
+              </Link>
               <button className="bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
                 View Schedule
               </button>
             </div>
             <div className="flex space-x-6 mt-12">
               <div className="text-white">
-                <div className="text-3xl font-bold">24-26</div>
+                <div className="text-3xl font-bold">4-5</div>
                 <div className="text-sm uppercase tracking-wider">October</div>
               </div>
               <div className="border-l border-white/30 pl-6 text-white">
@@ -103,6 +111,14 @@ const Home: React.FC = () => {
               <div className="metric-label">Social Media Reach</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section className="py-16 bg-gradient-to-br from-purple-100 to-yellow-50">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title reveal">Previous Year Highlights</h2>
+          <Gallery />
         </div>
       </section>
 

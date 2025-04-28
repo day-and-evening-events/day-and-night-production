@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu } from 'lucide-react';
@@ -30,11 +29,11 @@ const Navbar: React.FC = () => {
             <Link to="/" className={cn("nav-link", isActive('/') && "active-nav-link")}>Home</Link>
             <Link to="/about" className={cn("nav-link", isActive('/about') && "active-nav-link")}>About Us</Link>
             <Link to="/team" className={cn("nav-link", isActive('/team') && "active-nav-link")}>Our Team</Link>
-            <a href="#contact" className="nav-link">Contact</a>
+            <Link to="/contact" className={cn("nav-link", isActive('/contact') && "active-nav-link")}>Contact</Link>
           </div>
 
           <div className="hidden md:block">
-            <button className="btn-festival">Book Tickets</button>
+            <Link to="/contact" className="btn-festival">Book Tickets</Link>
           </div>
           
           <div className="md:hidden">
@@ -44,7 +43,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
         
-        {/* Mobile menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t mt-3 animate-fade-in">
             <div className="flex flex-col space-y-4">
@@ -69,14 +67,14 @@ const Navbar: React.FC = () => {
               >
                 Our Team
               </Link>
-              <a 
-                href="#contact" 
-                className="px-3 py-2 font-medium text-gray-700"
+              <Link 
+                to="/contact" 
+                className={cn("px-3 py-2 font-medium", isActive('/contact') ? "text-festival-red" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact
-              </a>
-              <button className="btn-festival w-full">Book Tickets</button>
+              </Link>
+              <Link to="/contact" className="btn-festival w-full">Book Tickets</Link>
             </div>
           </div>
         )}
