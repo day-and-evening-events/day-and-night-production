@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Festival themed colors
+				festival: {
+					red: '#E63946',
+					yellow: '#FCBF49',
+					teal: '#2A9D8F',
+					orange: '#F77F00',
+					purple: '#7209B7',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +93,34 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(20px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 5px rgba(252, 191, 73, 0.7), 0 0 10px rgba(252, 191, 73, 0.5)',
+						transform: 'scale(1)'
+					},
+					'50%': { 
+						boxShadow: '0 0 15px rgba(252, 191, 73, 0.9), 0 0 20px rgba(252, 191, 73, 0.7)',
+						transform: 'scale(1.03)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 1s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite'
+			},
+			fontFamily: {
+				'display': ['Poppins', 'sans-serif'],
+				'body': ['Inter', 'sans-serif']
+			},
+			backgroundImage: {
+				'festival-gradient': 'linear-gradient(135deg, #FCBF49 0%, #F77F00 50%, #E63946 100%)'
 			}
 		}
 	},

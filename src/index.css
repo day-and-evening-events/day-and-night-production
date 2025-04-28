@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,56 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .btn-festival {
+    @apply bg-festival-yellow text-black font-semibold px-6 py-3 rounded-full 
+    hover:bg-festival-orange hover:text-white transition-all duration-300 
+    shadow-md hover:shadow-lg transform hover:-translate-y-1 animate-pulse-glow;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-6 text-center relative;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply block w-20 h-1 bg-festival-yellow mx-auto mt-3;
+  }
+
+  .festival-card {
+    @apply bg-white rounded-lg shadow-lg p-6 border-l-4 border-festival-yellow 
+    hover:border-festival-red transition-colors duration-300;
+  }
+
+  .nav-link {
+    @apply relative px-3 py-2 font-medium text-gray-700 hover:text-festival-red 
+    transition-colors duration-300 after:content-[''] after:absolute after:w-full 
+    after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-festival-red 
+    after:origin-bottom-right after:transition-transform after:duration-300 
+    hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+
+  .active-nav-link {
+    @apply text-festival-red after:scale-x-100;
+  }
+
+  .metric-value {
+    @apply text-4xl md:text-5xl font-bold text-festival-red mb-1;
+  }
+
+  .metric-label {
+    @apply text-sm uppercase tracking-wider text-gray-600 font-medium;
+  }
+
+  .team-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-lg;
   }
 }
