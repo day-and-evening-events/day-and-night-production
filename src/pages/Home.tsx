@@ -1,5 +1,6 @@
+
 import React, { useEffect } from 'react';
-import { ArrowDown, Music, Users, Star, Award, MapPin, Video, Image } from 'lucide-react';
+import { ArrowDown, Music, Users, Star, Award, MapPin, Video, Image, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Gallery from '../components/Gallery';
 import FireworksAnimation from '../components/FireworksAnimation';
@@ -89,7 +90,7 @@ const Home: React.FC = () => {
             
             <div className="festival-card text-center reveal">
               <div className="w-12 h-12 rounded-full bg-festival-yellow/10 text-festival-yellow flex items-center justify-center mx-auto mb-4">
-                <Ticket className="w-6 h-6" />
+                <Calendar className="w-6 h-6" />
               </div>
               <div className="metric-value">₹2.5 Cr+</div>
               <div className="metric-label">Projected Revenue</div>
