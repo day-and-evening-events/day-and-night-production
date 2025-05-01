@@ -7,37 +7,37 @@ const Team: React.FC = () => {
       name: "Renu Singh Chandel",
       role: "Managing Director (MD)",
       bio: "Visionary leader guiding Day and Night Productions with extensive experience in event management and cultural celebrations.",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/mom.jpeg"
     },
     {
       name: "Raghuvansh Singh Chandel",
       role: "Chief Executive Officer (CEO)",
       bio: "Strategic planner who oversees all company operations, ensuring our events exceed expectations while maintaining our cultural values.",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/raghu.jpeg"
     },
     {
       name: "Vanshaj Singh Chandel",
       role: "Project Designer",
       bio: "Creative mind behind our event concepts, focused on creating immersive and authentic cultural experiences for our audiences.",
-      image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/vanshaj.jpeg"
     },
     {
       name: "Amaan Ghizali",
       role: "Chief Development Officer",
       bio: "Responsible for developing new business opportunities and partnerships that align with our mission of cultural celebration.",
-      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/amaan.jpeg"
     },
     {
       name: "Kartikey Kumar",
       role: "Chief Technical Officer (CTO)",
       bio: "Technical wizard who ensures our events feature cutting-edge sound, lighting, and effects for an unforgettable experience.",
-      image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/kartik.jpeg"
     },
     {
       name: "Saakhi Sharma",
       role: "Project Designer",
       bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
-      image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&w=300&q=80"
+      image: "/festival/sakhi.jpeg"
     }
   ];
 
