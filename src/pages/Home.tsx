@@ -39,18 +39,18 @@ const Home: React.FC = () => {
       
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] bg-festival-gradient overflow-hidden">
-        {/* AI-generated ethnic concert photo background */}
+        {/* Background image */}
         <div className="absolute inset-0">
           <img 
-            src="https://source.unsplash.com/random/1920x1080?indian,dandiya,concert" 
+            src="/lovable-uploads/4e7e6405-620e-4594-9e13-196796bc68e1.png" 
             alt="Ethnic Concert" 
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#FEF7CD] mb-4 animate-fade-in">
               Lucknow Bollywood <br />
               Dandiya Night <span className="text-festival-yellow">2025</span><br />
               <span className="text-2xl md:text-3xl">Season 1</span>
@@ -198,9 +198,9 @@ const Home: React.FC = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Don't miss out on Lucknow's biggest cultural celebration. Book your tickets now and be part of this extraordinary experience.
           </p>
-          <button className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <Link to="/contact" className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             Book Tickets Now
-          </button>
+          </Link>
         </div>
       </section>
     </div>

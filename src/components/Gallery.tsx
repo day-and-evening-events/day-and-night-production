@@ -1,30 +1,29 @@
 
 import React from 'react';
-import { Image, Video, Link } from 'lucide-react';
+import { Image, Video, Link, Play } from 'lucide-react';
 
 const Gallery = () => {
   const images = [
     { 
       type: 'image', 
-      url: 'https://source.unsplash.com/random/800x600?dandiya', 
-      title: 'Dandiya Night 2024'
+      url: '/lovable-uploads/4c370b39-2ab8-43a8-8deb-c3d1cde8f1e2.png', 
+      title: 'Crowd'
     },
     { 
       type: 'video', 
       url: 'https://drive.google.com/file/d/1H-b-tuE4GUPm8B954ek_jMSwDsaHFD5J/view?usp=sharing', 
-      thumbnail: 'https://source.unsplash.com/random/800x600?dance', 
-      title: 'After Movie\'24',
-      description: 'Click on this for Movie'
+      thumbnail: '/lovable-uploads/a56b113b-b8c1-41aa-98f0-300873a15248.png', 
+      title: 'After Movie\'24'
     },
     { 
       type: 'image', 
-      url: 'https://source.unsplash.com/random/800x600?festival', 
-      title: 'Cultural Night Performance' 
+      url: '/lovable-uploads/b6c3da1c-dd3f-472a-b591-7a62ae271276.png', 
+      title: 'Dandiya Night\'24'
     },
     { 
       type: 'image', 
-      url: 'https://source.unsplash.com/random/800x600?celebration', 
-      title: 'Grand Finale 2024' 
+      url: '/lovable-uploads/72609c26-eba1-4749-bbfe-cd4afae345c1.png', 
+      title: 'Opening Ceremony'
     },
   ];
 
@@ -35,7 +34,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
       {images.map((item, index) => (
         <div 
           key={index} 
@@ -50,16 +49,18 @@ const Gallery = () => {
             />
             <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <div className="text-white text-center">
-                <div className="mb-2">
-                  {item.type === 'image' ? <Image className="w-8 h-8 mx-auto" /> : <Video className="w-8 h-8 mx-auto" />}
-                </div>
-                <p className="text-lg font-semibold">{item.title}</p>
-                {item.description && (
-                  <div className="mt-2 flex items-center justify-center gap-1 text-festival-yellow">
-                    <Link className="w-4 h-4" />
-                    <span>{item.description}</span>
+                {item.type === 'video' ? (
+                  <div className="mb-2">
+                    <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto">
+                      <Play className="w-8 h-8 text-white fill-white ml-1" />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="mb-2">
+                    <Image className="w-8 h-8 mx-auto" />
                   </div>
                 )}
+                <p className="text-lg font-semibold">{item.title}</p>
               </div>
             </div>
           </div>
