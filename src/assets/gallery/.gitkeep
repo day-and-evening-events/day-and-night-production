@@ -1,3 +1,8 @@
 
 # This file ensures the gallery directory is created
-# Place images in this directory
+# Note: For the current implementation, all images should be placed in the 'public/festival' directory
+# The images needed are:
+# - crowd.png
+# - aftermovie.png
+# - dandiya.png
+# - opening.png

@@ -2,33 +2,28 @@
 import React from 'react';
 import { Play } from 'lucide-react';
 
-// Import images directly to ensure they're properly bundled
-import crowdImage from '../assets/gallery/crowd.png';
-import afterMovieThumbnail from '../assets/gallery/aftermovie.png';
-import dandiyaNightImage from '../assets/gallery/dandiya.png';
-import openingCeremonyImage from '../assets/gallery/opening.png';
-
+// Define image data without direct imports
 const Gallery = () => {
   const images = [
     { 
       type: 'image', 
-      url: crowdImage, 
+      url: '/festival/crowd.png', 
       title: 'Crowd'
     },
     { 
       type: 'video', 
       url: 'https://drive.google.com/file/d/1H-b-tuE4GUPm8B954ek_jMSwDsaHFD5J/view?usp=sharing', 
-      thumbnail: afterMovieThumbnail, 
+      thumbnail: '/festival/aftermovie.png', 
       title: 'After Movie\'24'
     },
     { 
       type: 'image', 
-      url: dandiyaNightImage, 
+      url: '/festival/dandiya.png', 
       title: 'Dandiya Night\'24'
     },
     { 
       type: 'image', 
-      url: openingCeremonyImage, 
+      url: '/festival/opening.png', 
       title: 'Opening Ceremony'
     },
   ];
