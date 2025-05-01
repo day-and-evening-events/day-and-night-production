@@ -2,27 +2,33 @@
 import React from 'react';
 import { Play } from 'lucide-react';
 
+// Import images directly to ensure they're properly bundled
+import crowdImage from '../assets/gallery/crowd.png';
+import afterMovieThumbnail from '../assets/gallery/aftermovie.png';
+import dandiyaNightImage from '../assets/gallery/dandiya.png';
+import openingCeremonyImage from '../assets/gallery/opening.png';
+
 const Gallery = () => {
   const images = [
     { 
       type: 'image', 
-      url: '/lovable-uploads/4c370b39-2ab8-43a8-8deb-c3d1cde8f1e2.png', 
+      url: crowdImage, 
       title: 'Crowd'
     },
     { 
       type: 'video', 
       url: 'https://drive.google.com/file/d/1H-b-tuE4GUPm8B954ek_jMSwDsaHFD5J/view?usp=sharing', 
-      thumbnail: '/lovable-uploads/a56b113b-b8c1-41aa-98f0-300873a15248.png', 
+      thumbnail: afterMovieThumbnail, 
       title: 'After Movie\'24'
     },
     { 
       type: 'image', 
-      url: '/lovable-uploads/b6c3da1c-dd3f-472a-b591-7a62ae271276.png', 
+      url: dandiyaNightImage, 
       title: 'Dandiya Night\'24'
     },
     { 
       type: 'image', 
-      url: '/lovable-uploads/72609c26-eba1-4749-bbfe-cd4afae345c1.png', 
+      url: openingCeremonyImage, 
       title: 'Opening Ceremony'
     },
   ];
