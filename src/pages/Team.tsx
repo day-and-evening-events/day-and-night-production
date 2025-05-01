@@ -1,5 +1,11 @@
 
 import React from 'react';
+import { 
+  Card, 
+  CardContent, 
+  CardHeader 
+} from '@/components/ui/card';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Team: React.FC = () => {
   const teamMembers = [
@@ -56,22 +62,26 @@ const Team: React.FC = () => {
       {/* Team Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
-              <div key={index} className="team-card">
-                <div className="h-48 bg-gray-200 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
+              <Card key={index} className="overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                <div className="relative">
+                  <AspectRatio ratio={3/4} className="bg-gray-100">
+                    <img 
+                      src={member.image} 
+                      alt={member.name} 
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </AspectRatio>
                 </div>
-                <div className="p-6">
+                <CardHeader className="pb-0">
                   <h3 className="text-xl font-bold">{member.name}</h3>
-                  <p className="text-festival-red font-medium text-sm mb-3">{member.role}</p>
+                  <p className="text-festival-red font-medium text-sm">{member.role}</p>
+                </CardHeader>
+                <CardContent>
                   <p className="text-gray-600">{member.bio}</p>
-                </div>
-              </div>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
