@@ -39,7 +39,15 @@ const Home: React.FC = () => {
       
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] bg-festival-gradient overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+        {/* AI-generated ethnic concert photo background */}
+        <div className="absolute inset-0">
+          <img 
+            src="https://source.unsplash.com/random/1920x1080?indian,dandiya,concert" 
+            alt="Ethnic Concert" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
@@ -84,7 +92,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-red/10 text-festival-red flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <div className="metric-value">80,000+</div>
+              <div className="metric-value">15,000+</div>
               <div className="metric-label">Expected Footfall</div>
             </div>
             
@@ -92,7 +100,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-yellow/10 text-festival-yellow flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-6 h-6" />
               </div>
-              <div className="metric-value">₹2.5 Cr+</div>
+              <div className="metric-value">₹50 Lakh+</div>
               <div className="metric-label">Projected Revenue</div>
             </div>
             
@@ -108,7 +116,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-purple/10 text-festival-purple flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <div className="metric-value">1M+</div>
+              <div className="metric-value">2M+</div>
               <div className="metric-label">Social Media Reach</div>
             </div>
           </div>

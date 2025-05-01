@@ -4,40 +4,40 @@ import React from 'react';
 const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: "Rahul Sharma",
-      role: "Founder & Creative Director",
-      bio: "Former event planner with 15+ years of experience. Passionate about cultural events and creating memorable experiences for communities.",
+      name: "Renu Singh Chandel",
+      role: "Managing Director (MD)",
+      bio: "Visionary leader guiding Day and Night Productions with extensive experience in event management and cultural celebrations.",
       image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=300&q=80"
     },
     {
-      name: "Priya Malhotra",
-      role: "Co-founder & Operations Head",
-      bio: "MBA graduate who brings structure and efficiency to our creative chaos. Expert in logistics and managing large-scale productions.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=300&q=80"
+      name: "Raghuvansh Singh Chandel",
+      role: "Chief Executive Officer (CEO)",
+      bio: "Strategic planner who oversees all company operations, ensuring our events exceed expectations while maintaining our cultural values.",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80"
     },
     {
-      name: "Vivek Kapoor",
-      role: "Technical Director",
-      bio: "Audio-visual production specialist with a background in theater. Creates immersive environments through innovative lighting and sound design.",
-      image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=300&q=80"
+      name: "Vanshaj Singh Chandel",
+      role: "Project Designer",
+      bio: "Creative mind behind our event concepts, focused on creating immersive and authentic cultural experiences for our audiences.",
+      image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?auto=format&fit=crop&w=300&q=80"
     },
     {
-      name: "Meera Patel",
-      role: "Marketing Director",
-      bio: "Digital marketing expert who has helped grow our social media presence from 5K to 1M+ followers in just three years.",
+      name: "Amaan Ghizali",
+      role: "Chief Development Officer",
+      bio: "Responsible for developing new business opportunities and partnerships that align with our mission of cultural celebration.",
+      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      name: "Kartikey Kumar",
+      role: "Chief Technical Officer (CTO)",
+      bio: "Technical wizard who ensures our events feature cutting-edge sound, lighting, and effects for an unforgettable experience.",
+      image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      name: "Saakhi Sharma",
+      role: "Project Designer",
+      bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
       image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&w=300&q=80"
-    },
-    {
-      name: "Arjun Singh",
-      role: "Talent Relations Manager",
-      bio: "Former artist manager with extensive industry connections. Responsible for bringing top performers to our events.",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=300&q=80"
-    },
-    {
-      name: "Neha Gupta",
-      role: "Community Engagement",
-      bio: "Passionate about creating inclusive events. Works with local communities to ensure our celebrations reflect diverse cultural perspectives.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=300&q=80"
     }
   ];
 

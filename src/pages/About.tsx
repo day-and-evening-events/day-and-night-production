@@ -67,36 +67,36 @@ const About: React.FC = () => {
           <div className="max-w-4xl mx-auto mt-10 space-y-12">
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
-                <div className="text-2xl font-bold text-festival-red">2015</div>
-                <div className="text-lg font-semibold">Humble Beginnings</div>
+                <div className="text-2xl font-bold text-festival-red">2020</div>
+                <div className="text-lg font-semibold">Beginning Our Journey</div>
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Started with a small Dandiya night event at a local community center with just 500 attendees, completely organized by our founding team of 3 members.
+                  Started our journey in event management, advertisement production, and wedding event business, building our expertise and connections in the industry.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
-                <div className="text-2xl font-bold text-festival-yellow">2018</div>
-                <div className="text-lg font-semibold">Growing Success</div>
+                <div className="text-2xl font-bold text-festival-yellow">2023</div>
+                <div className="text-lg font-semibold">First Dandiya Night</div>
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Expanded to a larger venue with 5,000+ attendees. Added professional lighting, sound design, and secured our first major sponsorship deals.
+                  Organized our first Dandiya Night in Lucknow in partnership with another production house, which gave us valuable experience but restricted our creative freedom.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
-                <div className="text-2xl font-bold text-festival-teal">2021</div>
-                <div className="text-lg font-semibold">Regional Recognition</div>
+                <div className="text-2xl font-bold text-festival-teal">2024</div>
+                <div className="text-lg font-semibold">Growing Experience</div>
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Lucknow Dandiya Nights became North India's premier Navratri celebration, featuring performances by nationally recognized artists and attracting 30,000+ attendees.
+                  Continued our partnership for the Dandiya Night in Lucknow, gaining more experience but still feeling limited in expressing our full creative vision for the event.
                 </p>
               </div>
             </div>
@@ -104,11 +104,11 @@ const About: React.FC = () => {
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
                 <div className="text-2xl font-bold text-festival-purple">2025</div>
-                <div className="text-lg font-semibold">New Heights</div>
+                <div className="text-lg font-semibold">Season 1 - Full Creative Control</div>
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Projected to be our biggest event yet, with expected attendance of 80,000+, featuring international artists, immersive experiences, and innovative technology integration.
+                  Launching our first independent Dandiya Night as Season 1, with full creative control under our production house, allowing us to create a truly authentic and unforgettable cultural experience.
                 </p>
               </div>
             </div>
