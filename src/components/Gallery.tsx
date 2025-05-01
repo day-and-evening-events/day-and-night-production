@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Image, Video, Link, Play } from 'lucide-react';
+import { Play } from 'lucide-react';
 
 const Gallery = () => {
   const images = [
@@ -55,11 +55,7 @@ const Gallery = () => {
                       <Play className="w-8 h-8 text-white fill-white ml-1" />
                     </div>
                   </div>
-                ) : (
-                  <div className="mb-2">
-                    <Image className="w-8 h-8 mx-auto" />
-                  </div>
-                )}
+                ) : null}
                 <p className="text-lg font-semibold">{item.title}</p>
               </div>
             </div>
