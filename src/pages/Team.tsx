@@ -37,7 +37,7 @@ const Team: React.FC = () => {
       name: "Kartikey Kumar",
       role: "Chief Technical Officer (CTO)",
       bio: "Technical wizard who ensures our events feature cutting-edge sound, lighting, and effects for an unforgettable experience.",
-      image: "/festival/kartik.jpeg"
+      image: "/festival/kartik.jpg"
     },
     {
       name: "Saakhi Sharma",
