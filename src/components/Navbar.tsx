@@ -22,6 +22,7 @@ const Navbar: React.FC = () => {
               <AvatarImage src="/festival/logo.png" alt="Day & Night Productions Logo" />
             </Avatar>
             <div className="hidden sm:block">
+              <span className="font-display font-bold text-xl">Day & Night</span>
               <span className="text-sm block text-gray-600">Productions</span>
             </div>
           </Link>
