@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { ArrowDown, Music, Users, Star, Award, MapPin, Video, Image, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -87,21 +86,13 @@ const Home: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="section-title reveal">Event Highlights</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             <div className="festival-card text-center reveal">
               <div className="w-12 h-12 rounded-full bg-festival-red/10 text-festival-red flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
               <div className="metric-value">15,000+</div>
               <div className="metric-label">Expected Footfall</div>
-            </div>
-            
-            <div className="festival-card text-center reveal">
-              <div className="w-12 h-12 rounded-full bg-festival-yellow/10 text-festival-yellow flex items-center justify-center mx-auto mb-4">
-                <Calendar className="w-6 h-6" />
-              </div>
-              <div className="metric-value">₹50 Lakh+</div>
-              <div className="metric-label">Projected Revenue</div>
             </div>
             
             <div className="festival-card text-center reveal">
