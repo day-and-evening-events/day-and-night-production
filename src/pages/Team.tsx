@@ -13,7 +13,7 @@ const Team: React.FC = () => {
       name: "Renu Singh Chandel",
       role: "Managing Director (MD)",
       bio: "Visionary leader guiding Day and Night Productions with extensive experience in event management and cultural celebrations.",
-      image: "/festival/mom.jpeg"
+      image: "/festival/mom.png"
     },
     {
       name: "Raghuvansh Singh Chandel",
