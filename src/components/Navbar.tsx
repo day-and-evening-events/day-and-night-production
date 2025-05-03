@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import { cn } from "@/lib/utils";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,7 +19,8 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
             <Avatar className="w-12 h-12 border-2 border-festival-red">
-              <AvatarImage src="/festival/logo.png" alt="Day & Night Productions Logo" />
+              <AvatarImage src="https://images.unsplash.com/photo-1501286353178-1ec871214838" alt="Day & Night Productions Logo" />
+              <AvatarFallback>D&N</AvatarFallback>
             </Avatar>
             <div className="hidden sm:block">
               <span className="font-display font-bold text-xl">Day & Night</span>
