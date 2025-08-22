@@ -13,49 +13,49 @@ const Team: React.FC = () => {
       name: "Renu Singh Chandel",
       role: "Managing Director (MD)",
       bio: "Visionary leader guiding Day and Night events with extensive experience in event management and cultural celebrations.",
-      image: "/festival/mom.png"
+      image: "/public/festival/mom.png"
     },
     {
       name: "Raghuvansh Singh Chandel",
       role: "Chief Executive Officer (CEO)",
       bio: "Strategic planner who oversees all company operations, ensuring our events exceed expectations while maintaining our cultural values.",
-      image: "/festival/raghu.jpeg"
+      image: "/public/festival/raghu.jpeg"
     },
     {
       name: "Vanshaj Singh Chandel",
       role: "Project Designer",
       bio: "Creative mind behind our event concepts, focused on creating immersive and authentic cultural experiences for our audiences.",
-      image: "/festival/vanshaj.jpeg"
+      image: "/public/festival/vanshaj.jpeg"
     },
     {
       name: "Amaan Ghizali",
       role: "Chief Development Officer",
       bio: "Responsible for developing new business opportunities and partnerships that align with our mission of cultural celebration.",
-      image: "/festival/amaan.jpeg"
+      image: "/public/festival/amaan.jpeg"
     },
     {
       name: "Kartikey Kumar",
       role: "Chief Technical Officer (CTO)",
       bio: "Technical wizard who ensures our events feature cutting-edge sound, lighting, and effects for an unforgettable experience.",
-      image: "/festival/kartik.jpg"
+      image: "/public/festival/kartik.jpg"
     },
     {
       name: "Saakhi Sharma",
       role: "Project Designer",
       bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
-      image: "/festival/sakhi.jpeg"
+      image: "/public/festival/sakhi.jpeg"
     },
     {
       name: "Prakhar Srivastava",
       role: "Promotion & Operations Manager",
       bio: "Responsible for driving marketing campaigns and coordinating event logistics for seamless execution.",
-      image: "/festival/prakhar.jpeg"
+      image: "/public/festival/prakhar.jpeg"
     },
     {
       name: "Prateek Awasthi",
       role: "Tech Manager",
       bio: "Ensures reliability of all technical systems and manages live-event tech support.",
-      image: "/festival/prateek.jpeg"
+      image: "/public/festival/prateek.jpeg"
     },
 
   ];

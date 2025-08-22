@@ -7,23 +7,23 @@ const Gallery = () => {
   const images = [
     { 
       type: 'image', 
-      url: '/festival/Crowd.JPG', 
+      url: '/public/festival/Crowd.JPG', 
       title: 'Crowd'
     },
     { 
       type: 'video', 
       url: 'https://drive.google.com/file/d/1zPizIfnznSXjnwWvAoz4pwyRb1u3KJg1/view?usp=drivesdk', 
-      thumbnail: '/festival/aftermovie.jpeg', 
+      thumbnail: '/public/festival/aftermovie.jpeg', 
       title: 'After Movie\'24'
     },
     { 
       type: 'image', 
-      url: '/festival/night.jpeg', 
+      url: '/public/festival/night.jpeg', 
       title: 'Dandiya Night\'24'
     },
     { 
       type: 'image', 
-      url: '/festival/ceremony.jpeg', 
+      url: '/public/festival/ceremony.jpeg', 
       title: 'Opening Ceremony'
     },
   ];

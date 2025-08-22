@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
             <Avatar className="w-12 h-12 border-2 border-festival-pink">
-              <AvatarImage src="/festival/logo_new.jpg" alt="Day & Night events Logo" />
+              <AvatarImage src="/public/festival/logo_new.jpg" alt="Day & Night events Logo" />
               <AvatarFallback>D&N</AvatarFallback>
             </Avatar>
             <div className="hidden sm:block">
