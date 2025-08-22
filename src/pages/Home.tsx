@@ -58,19 +58,16 @@ const Home: React.FC = () => {
               City Centre ki BIGGEST Dandiya Night
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="https://example.com" className="btn-festival" target="_blank" rel="noopener noreferrer">
-              External Link
+            <a href="https://in.bookmyshow.com/activities/lucknow-bollywood-dandiya-night/ET00458445" className="btn-festival" target="_blank" rel="noopener noreferrer">
+              Book Your Tickets
             </a>
-              {/* <Link to="/contact" className="btn-festival">
-                Book Your Tickets
-              </Link> */}
               <Link to="/schedule" className="bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
                 View Schedule
               </Link>
             </div>
             <div className="flex space-x-6 mt-12">
               <div className="text-white">
-                <div className="text-3xl font-bold">4-5</div>
+                <div className="text-3xl font-bold">11-12</div>
                 <div className="text-sm uppercase tracking-wider">October</div>
               </div>
               <div className="border-l border-white/30 pl-6 text-white">
@@ -94,7 +91,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-pink/10 text-festival-pink flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <div className="metric-value">15,000+</div>
+              <div className="metric-value">16,000+</div>
               <div className="metric-label">Expected Footfall</div>
             </div>
             
@@ -110,7 +107,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-purple/10 text-festival-purple flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <div className="metric-value">2M+</div>
+              <div className="metric-value">10M+</div>
               <div className="metric-label">Social Media Reach</div>
             </div>
           </div>
@@ -192,9 +189,12 @@ const Home: React.FC = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Don't miss out on Lucknow's biggest cultural celebration. Book your tickets now and be part of this extraordinary experience.
           </p>
-          <Link to="/contact" className="bg-white text-festival-pink font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          {/* <Link to="/contact" className="bg-white text-festival-pink font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             Book Tickets Now
-          </Link>
+          </Link> */}
+          <a href="https://in.bookmyshow.com/activities/lucknow-bollywood-dandiya-night/ET00458445" className="bg-white text-festival-pink font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg" target="_blank" rel="noopener noreferrer">
+          Book Tickets Now
+            </a>
         </div>
       </section>
     </div>

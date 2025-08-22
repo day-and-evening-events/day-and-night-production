@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="font-display font-bold text-xl">Day & Night</span>
-                <span className="text-sm block text-gray-400">Productions</span>
+                <span className="text-sm block text-gray-400">events</span>
               </div>
             </div>
             <p className="text-gray-400 mb-6">
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-festival-yellow mt-1" />
-                <span className="text-gray-400">Sahara States, Jankipuram, Lucknow, 226021</span>
+                <span className="text-gray-400">Om plaza, Vikas Nagar, Lucknow</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-festival-yellow" />
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-festival-yellow" />
-                <span className="text-gray-400">info@dayandnightproductions.com</span>
+                <span className="text-gray-400">marketing@dayandnightevents.com</span>
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-10 pt-6">
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} Day and Night Productions. All rights reserved.
+            © {new Date().getFullYear()} Day and Night events. All rights reserved.
           </p>
         </div>
       </div>

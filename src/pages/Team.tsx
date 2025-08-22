@@ -12,7 +12,7 @@ const Team: React.FC = () => {
     {
       name: "Renu Singh Chandel",
       role: "Managing Director (MD)",
-      bio: "Visionary leader guiding Day and Night Productions with extensive experience in event management and cultural celebrations.",
+      bio: "Visionary leader guiding Day and Night events with extensive experience in event management and cultural celebrations.",
       image: "/festival/mom.png"
     },
     {
@@ -54,7 +54,7 @@ const Team: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">Meet The Team</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            The passionate individuals behind Day and Night Productions
+            The passionate individuals behind Day and Night events
           </p>
         </div>
       </section>

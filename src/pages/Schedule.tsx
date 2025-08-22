@@ -8,7 +8,7 @@ const Schedule: React.FC = () => {
       title: "DJ Opening Set",
       time: "6:00 PM - 7:00 PM",
       description: "Get the party started with high-energy beats and crowd favorites",
-      image: "/festival/night.jpeg",
+      image: "/festival/dj_male.jpeg",
       icon: <Music className="w-6 h-6" />
     },
     {
@@ -16,7 +16,7 @@ const Schedule: React.FC = () => {
       title: "Opening Ceremony",
       time: "7:00 PM - 7:20 PM", 
       description: "Traditional welcome ceremony with cultural performances",
-      image: "/festival/ceremony.jpeg",
+      image: "/festival/opening.jpeg",
       icon: <Star className="w-6 h-6" />
     },
     {
@@ -24,7 +24,7 @@ const Schedule: React.FC = () => {
       title: "DJ Set",
       time: "7:30 PM - 8:00 PM",
       description: "Bollywood hits mixed with contemporary dance tracks",
-      image: "/festival/Crowd.JPG",
+      image: "/festival/dj_female.JPG",
       icon: <Music className="w-6 h-6" />
     },
     {
@@ -32,7 +32,7 @@ const Schedule: React.FC = () => {
       title: "Mexican Fireshow with Bollywood Theme Songs",
       time: "8:00 PM - 8:40 PM",
       description: "Spectacular fire performance choreographed to Bollywood music",
-      image: "/festival/wallpaper.jpeg",
+      image: "/festival/fireshow.jpeg",
       icon: <Flame className="w-6 h-6" />
     },
     {
@@ -40,7 +40,7 @@ const Schedule: React.FC = () => {
       title: "Super Secret Surprise",
       time: "9:00 PM - 10:00 PM",
       description: "A special surprise performance you won't want to miss!",
-      image: "/festival/aftermovie.jpeg",
+      image: "/festival/secretstar.jpeg",
       icon: <Gift className="w-6 h-6" />
     },
     {
@@ -48,7 +48,7 @@ const Schedule: React.FC = () => {
       title: "Pyro Fireworks",
       time: "9:50 PM - 10:00 PM",
       description: "Grand finale with spectacular fireworks display",
-      image: "/festival/night.jpeg",
+      image: "/festival/fireworks.jpeg",
       icon: <Sparkles className="w-6 h-6" />
     }
   ];

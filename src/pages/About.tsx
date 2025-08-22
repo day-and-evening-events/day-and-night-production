@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">About Us</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Day and Night Productions - Creating vibrant cultural experiences since 2015
+            Day and Night events - Creating vibrant cultural experiences since 2015
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ const About: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="section-title">Our Mission</h2>
             <p className="text-lg text-gray-700 mb-8">
-              At Day and Night Productions, our mission is to create vibrant cultural experiences that celebrate and uplift local talent while fostering community connections through unforgettable events.
+              At Day and Night events, our mission is to create vibrant cultural experiences that celebrate and uplift local talent while fostering community connections through unforgettable events.
             </p>
             <p className="text-lg text-gray-700">
               Founded in 2015 by a group of passionate event enthusiasts, we've grown from humble beginnings hosting small community gatherings to producing some of North India's most anticipated cultural celebrations, including our flagship event - Lucknow Dandiya Nights.
@@ -67,7 +67,7 @@ const About: React.FC = () => {
           <div className="max-w-4xl mx-auto mt-10 space-y-12">
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
-                <div className="text-2xl font-bold text-festival-red">2020</div>
+                <div className="text-2xl font-bold text-festival-red">2021</div>
                 <div className="text-lg font-semibold">Beginning Our Journey</div>
               </div>
               <div className="md:w-2/3">
@@ -84,7 +84,7 @@ const About: React.FC = () => {
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Organized our first Dandiya Night in Lucknow in partnership with another production house, which gave us valuable experience but restricted our creative freedom.
+                  Organized our first Dandiya Night in Lucknow in partnership which gave us valuable experience.
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ const About: React.FC = () => {
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Continued our partnership for the Dandiya Night in Lucknow, gaining more experience but still feeling limited in expressing our full creative vision for the event.
+                  Continued our partnership for events in Lucknow, gaining more experience but still feeling limited in expressing our full creative vision for the event.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ const About: React.FC = () => {
               </div>
               <div className="md:w-2/3">
                 <p className="text-gray-700">
-                  Launching our first independent Dandiya Night as Season 1, with full creative control under our production house, allowing us to create a truly authentic and unforgettable cultural experience.
+                  Launching our first independent Dandiya Night as Season 1, with full creative control under our event company, allowing us to create a truly authentic and unforgettable cultural experience for lucknow city.
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">Partner With Us</h2>
           <p className="text-xl max-w-2xl mx-auto mb-8">
-            Interested in sponsoring our events or collaborating with Day and Night Productions? We'd love to hear from you!
+            Interested in sponsoring our events or collaborating with Day and Night events? We'd love to hear from you!
           </p>
           <button className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             Contact Our Team

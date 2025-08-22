@@ -19,12 +19,12 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
             <Avatar className="w-12 h-12 border-2 border-festival-pink">
-              <AvatarImage src="/festival/logo_new.jpg" alt="Day & Night Productions Logo" />
+              <AvatarImage src="/festival/logo_new.jpg" alt="Day & Night events Logo" />
               <AvatarFallback>D&N</AvatarFallback>
             </Avatar>
             <div className="hidden sm:block">
               <span className="font-display font-bold text-xl">Day & Night</span>
-              <span className="text-sm block text-gray-600">Productions</span>
+              <span className="text-sm block text-gray-600">events</span>
             </div>
           </Link>
           
@@ -36,7 +36,10 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="hidden md:block">
-            <Link to="/contact" className="btn-festival">Book Tickets</Link>
+            {/* <Link to="/contact" className="btn-festival">Book Tickets</Link> */}
+            <a href="https://in.bookmyshow.com/activities/lucknow-bollywood-dandiya-night/ET00458445" className="btn-festival" target="_blank" rel="noopener noreferrer">
+              Book Tickets
+            </a>
           </div>
           
           <div className="md:hidden">
@@ -71,13 +74,16 @@ const Navbar: React.FC = () => {
                 Our Team
               </Link>
               <Link 
-                to="/contact" 
-                className={cn("px-3 py-2 font-medium", isActive('/contact') ? "text-festival-pink" : "text-gray-700")}
+                to="/schedule" 
+                className={cn("px-3 py-2 font-medium", isActive('/schedule') ? "text-festival-pink" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Contact
+                Event Schedule
               </Link>
-              <Link to="/contact" className="btn-festival w-full">Book Tickets</Link>
+              {/* <Link to="/contact" className="btn-festival w-full">Book Tickets</Link> */}
+              <a href="https://in.bookmyshow.com/activities/lucknow-bollywood-dandiya-night/ET00458445" className="btn-festival w-full" target="_blank" rel="noopener noreferrer">
+              Book Tickets
+            </a>
             </div>
           </div>
         )}
