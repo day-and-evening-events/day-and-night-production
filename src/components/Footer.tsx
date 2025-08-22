@@ -22,15 +22,19 @@ const Footer: React.FC = () => {
               Creating vibrant cultural experiences and uplifting local talent through unforgettable events.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-festival-red transition-colors">
-                <span>FB</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-festival-red transition-colors">
-                <span>IG</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-festival-red transition-colors">
-                <span>TW</span>
-              </a>
+              
+            <a 
+              href="https://www.instagram.com/dayandnightevents_1?igsh=MXd5N3c0eW42eDk1ag=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-festival-red transition-colors"
+            >
+            <img 
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" 
+              alt="Instagram" 
+              className="w-5 h-5"
+            />
+            </a>
             </div>
           </div>
           
