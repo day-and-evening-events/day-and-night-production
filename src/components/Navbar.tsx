@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             <Link to="/" className={cn("nav-link", isActive('/') && "active-nav-link")}>Home</Link>
             <Link to="/about" className={cn("nav-link", isActive('/about') && "active-nav-link")}>About Us</Link>
             <Link to="/team" className={cn("nav-link", isActive('/team') && "active-nav-link")}>Our Team</Link>
-            <Link to="/contact" className={cn("nav-link", isActive('/contact') && "active-nav-link")}>Contact</Link>
+            <Link to="/schedule" className={cn("nav-link", isActive('/schedule') && "active-nav-link")}>Event Schedule</Link>
           </div>
 
           <div className="hidden md:block">

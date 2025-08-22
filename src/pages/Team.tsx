@@ -45,6 +45,19 @@ const Team: React.FC = () => {
       bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
       image: "/festival/sakhi.jpeg"
     }
+    {
+      name: "Prakhar Srivastava",
+      role: "Promotion & Operations Manager",
+      bio: "Responsible for driving marketing campaigns and coordinating event logistics for seamless execution.",
+      image: "/festival/prakhar.jpeg"
+    }
+    {
+      name: "Prateek Awasthi",
+      role: "Tech Manager",
+      bio: "Ensures reliability of all technical systems and manages live-event tech support.",
+      image: "/festival/prateek.jpeg"
+    }
+
   ];
 
   return (

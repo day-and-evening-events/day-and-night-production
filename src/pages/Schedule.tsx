@@ -24,7 +24,7 @@ const Schedule: React.FC = () => {
       title: "DJ Set",
       time: "7:30 PM - 8:00 PM",
       description: "Bollywood hits mixed with contemporary dance tracks",
-      image: "/festival/dj_female.JPG",
+      image: "/festival/dj_female.jpeg",
       icon: <Music className="w-6 h-6" />
     },
     {

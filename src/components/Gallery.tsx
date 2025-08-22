@@ -12,7 +12,7 @@ const Gallery = () => {
     },
     { 
       type: 'video', 
-      url: 'https://drive.google.com/file/d/1H-b-tuE4GUPm8B954ek_jMSwDsaHFD5J/view?usp=sharing', 
+      url: 'https://drive.google.com/file/d/1zPizIfnznSXjnwWvAoz4pwyRb1u3KJg1/view?usp=drivesdk', 
       thumbnail: '/festival/aftermovie.jpeg', 
       title: 'After Movie\'24'
     },

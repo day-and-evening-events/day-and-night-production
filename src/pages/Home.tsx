@@ -85,7 +85,7 @@ const Home: React.FC = () => {
       {/* Key Metrics Section */}
       <section className="py-16 bg-gradient-to-br from-festival-purple/10 to-festival-cyan/10">
         <div className="container mx-auto px-4">
-          <h2 className="section-title reveal">Event Highlights</h2>
+          <h2 className="section-title reveal">Event Projections</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             <div className="festival-card text-center reveal">
               <div className="w-12 h-12 rounded-full bg-festival-pink/10 text-festival-pink flex items-center justify-center mx-auto mb-4">
@@ -99,15 +99,15 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-festival-cyan/10 text-festival-cyan flex items-center justify-center mx-auto mb-4">
                 <Star className="w-6 h-6" />
               </div>
-              <div className="metric-value">95%</div>
-              <div className="metric-label">Previous Venue Capacity</div>
+              <div className="metric-value">90%</div>
+              <div className="metric-label">Sponsor Visibility</div>
             </div>
             
             <div className="festival-card text-center reveal">
               <div className="w-12 h-12 rounded-full bg-festival-purple/10 text-festival-purple flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <div className="metric-value">10M+</div>
+              <div className="metric-value">7M+</div>
               <div className="metric-label">Social Media Reach</div>
             </div>
           </div>
