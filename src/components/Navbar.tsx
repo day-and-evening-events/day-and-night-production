@@ -14,11 +14,11 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-gradient-to-r from-festival-pink/5 to-festival-yellow/5 backdrop-blur-sm shadow-md sticky top-0 z-50 border-b border-festival-pink/10">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
-            <Avatar className="w-12 h-12 border-2 border-festival-red">
+            <Avatar className="w-12 h-12 border-2 border-festival-pink">
               <AvatarImage src="/festival/logo_new.jpg" alt="Day & Night Productions Logo" />
               <AvatarFallback>D&N</AvatarFallback>
             </Avatar>
@@ -51,28 +51,28 @@ const Navbar: React.FC = () => {
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/" 
-                className={cn("px-3 py-2 font-medium", isActive('/') ? "text-festival-red" : "text-gray-700")}
+                className={cn("px-3 py-2 font-medium", isActive('/') ? "text-festival-pink" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={cn("px-3 py-2 font-medium", isActive('/about') ? "text-festival-red" : "text-gray-700")}
+                className={cn("px-3 py-2 font-medium", isActive('/about') ? "text-festival-pink" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link 
                 to="/team" 
-                className={cn("px-3 py-2 font-medium", isActive('/team') ? "text-festival-red" : "text-gray-700")}
+                className={cn("px-3 py-2 font-medium", isActive('/team') ? "text-festival-pink" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Our Team
               </Link>
               <Link 
                 to="/contact" 
-                className={cn("px-3 py-2 font-medium", isActive('/contact') ? "text-festival-red" : "text-gray-700")}
+                className={cn("px-3 py-2 font-medium", isActive('/contact') ? "text-festival-pink" : "text-gray-700")}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact

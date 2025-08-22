@@ -83,12 +83,12 @@ const Home: React.FC = () => {
       </section>
 
       {/* Key Metrics Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-br from-festival-purple/10 to-festival-cyan/10">
         <div className="container mx-auto px-4">
           <h2 className="section-title reveal">Event Highlights</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             <div className="festival-card text-center reveal">
-              <div className="w-12 h-12 rounded-full bg-festival-red/10 text-festival-red flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 rounded-full bg-festival-pink/10 text-festival-pink flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6" />
               </div>
               <div className="metric-value">15,000+</div>
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="festival-card text-center reveal">
-              <div className="w-12 h-12 rounded-full bg-festival-teal/10 text-festival-teal flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 rounded-full bg-festival-cyan/10 text-festival-cyan flex items-center justify-center mx-auto mb-4">
                 <Star className="w-6 h-6" />
               </div>
               <div className="metric-value">95%</div>
@@ -115,7 +115,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-16 bg-gradient-to-br from-purple-100 to-yellow-50">
+      <section className="py-16 bg-gradient-to-br from-festival-pink/10 to-festival-yellow/10">
         <div className="container mx-auto px-4">
           <h2 className="section-title reveal">Previous Year Highlights</h2>
           <Gallery />
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Why Attend Section */}
-      <section className="py-16">
+      <section className="py-16 bg-gradient-to-br from-festival-blue/5 to-festival-orange/5">
         <div className="container mx-auto px-4">
           <h2 className="section-title reveal">Why Attend</h2>
           <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12 reveal">
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start space-x-4 reveal">
-              <div className="w-12 h-12 rounded-full bg-festival-red/10 text-festival-red flex-shrink-0 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-festival-pink/10 text-festival-pink flex-shrink-0 flex items-center justify-center">
                 <Music className="w-6 h-6" />
               </div>
               <div>
@@ -156,7 +156,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="flex items-start space-x-4 reveal">
-              <div className="w-12 h-12 rounded-full bg-festival-teal/10 text-festival-teal flex-shrink-0 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-festival-cyan/10 text-festival-cyan flex-shrink-0 flex items-center justify-center">
                 <MapPin className="w-6 h-6" />
               </div>
               <div>
@@ -189,7 +189,7 @@ const Home: React.FC = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Don't miss out on Lucknow's biggest cultural celebration. Book your tickets now and be part of this extraordinary experience.
           </p>
-          <Link to="/contact" className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <Link to="/contact" className="bg-white text-festival-pink font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             Book Tickets Now
           </Link>
         </div>

@@ -20,7 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-gradient-to-br from-festival-pink/5 via-festival-yellow/5 to-festival-cyan/5">
           <Navbar />
           <main className="flex-grow">
             <Routes>
