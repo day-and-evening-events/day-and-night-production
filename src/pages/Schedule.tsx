@@ -124,12 +124,15 @@ const Schedule: React.FC = () => {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Book your tickets now and experience every spectacular moment of Lucknow's biggest Dandiya celebration.
           </p>
-          <a
+          {/* <a
             href="/contact"
             className="btn-festival inline-block"
           >
             Book Your Tickets Now
-          </a>
+          </a> */}
+          <a href="https://in.bookmyshow.com/activities/lucknow-bollywood-dandiya-night/ET00458445" className="btn-festival inline-block" target="_blank" rel="noopener noreferrer">
+          Book Tickets Now
+            </a>
         </div>
       </section>
     </div>
