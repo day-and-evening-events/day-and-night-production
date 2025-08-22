@@ -50,17 +50,20 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#FEF7CD] mb-4 animate-fade-in">
-              Lucknow Bollywood <br />
+              Lucknow ki Bollywood <br />
               Dandiya Night <span className="text-festival-yellow">2025</span><br />
               <span className="text-2xl md:text-3xl">Season 1</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8">
-              Dance, Celebrate, Repeat — Lucknow's Biggest Dandiya Night!
+              City Centre ki BIGGEST Dandiya Night
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link to="/contact" className="btn-festival">
+            <a href="https://example.com" className="btn-festival" target="_blank" rel="noopener noreferrer">
+              External Link
+            </a>
+              {/* <Link to="/contact" className="btn-festival">
                 Book Your Tickets
-              </Link>
+              </Link> */}
               <Link to="/schedule" className="bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
                 View Schedule
               </Link>
