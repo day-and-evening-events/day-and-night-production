@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         {/* Background image */}
         <div className="absolute inset-0">
           <img 
-            src="/public/festival/wallpaper.jpeg" 
+            src="/festival/wallpaper.jpeg" 
             alt="Ethnic Concert" 
             className="w-full h-full object-cover"
           />
