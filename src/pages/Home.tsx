@@ -61,9 +61,9 @@ const Home: React.FC = () => {
               <Link to="/contact" className="btn-festival">
                 Book Your Tickets
               </Link>
-              <button className="bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
+              <Link to="/schedule" className="bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300">
                 View Schedule
-              </button>
+              </Link>
             </div>
             <div className="flex space-x-6 mt-12">
               <div className="text-white">
