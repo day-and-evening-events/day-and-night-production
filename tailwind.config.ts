@@ -55,11 +55,14 @@ export default {
 				},
 				// Festival themed colors
 				festival: {
-					red: '#E63946',
-					yellow: '#FCBF49',
-					teal: '#2A9D8F',
-					orange: '#F77F00',
-					purple: '#7209B7',
+					pink: '#FF007F',
+					yellow: '#FFD700',
+					orange: '#FF6600',
+					blue: '#1E90FF',
+					purple: '#8000FF',
+					cyan: '#00E6E6',
+					white: '#FFFFFF',
+					black: '#1A1A1A',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -100,11 +103,11 @@ export default {
 				},
 				'pulse-glow': {
 					'0%, 100%': { 
-						boxShadow: '0 0 5px rgba(252, 191, 73, 0.7), 0 0 10px rgba(252, 191, 73, 0.5)',
+						boxShadow: '0 0 5px rgba(255, 215, 0, 0.7), 0 0 10px rgba(255, 215, 0, 0.5)',
 						transform: 'scale(1)'
 					},
 					'50%': { 
-						boxShadow: '0 0 15px rgba(252, 191, 73, 0.9), 0 0 20px rgba(252, 191, 73, 0.7)',
+						boxShadow: '0 0 15px rgba(255, 215, 0, 0.9), 0 0 20px rgba(255, 215, 0, 0.7)',
 						transform: 'scale(1.03)'
 					}
 				}
@@ -120,7 +123,7 @@ export default {
 				'body': ['Inter', 'sans-serif']
 			},
 			backgroundImage: {
-				'festival-gradient': 'linear-gradient(135deg, #FCBF49 0%, #F77F00 50%, #E63946 100%)'
+				'festival-gradient': 'linear-gradient(135deg, #FF007F 0%, #FFD700 50%, #FF6600 100%)'
 			}
 		}
 	},
