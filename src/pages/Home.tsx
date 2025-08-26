@@ -82,6 +82,33 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Sponsors Section */}
+      <section className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title reveal">Our Sponsors</h2>
+          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 reveal">
+            Proudly supported by these amazing partners who make this celebration possible
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
+            {[1, 2, 3].map((sponsor) => (
+              <div key={sponsor} className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
+                <div className="w-full h-24 bg-muted rounded-lg flex items-center justify-center">
+                  <span className="text-muted-foreground font-semibold">Sponsor {sponsor}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12 reveal">
+            <p className="text-muted-foreground mb-4">Want to partner with us?</p>
+            <Link to="/contact" className="btn-festival">
+              Become a Sponsor
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Key Metrics Section */}
       <section className="py-16 bg-gradient-to-br from-festival-purple/10 to-festival-cyan/10">
         <div className="container mx-auto px-4">
@@ -110,33 +137,6 @@ const Home: React.FC = () => {
               <div className="metric-value">7M+</div>
               <div className="metric-label">Social Media Reach</div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sponsors Section */}
-      <section className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">
-        <div className="container mx-auto px-4">
-          <h2 className="section-title reveal">Our Sponsors</h2>
-          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 reveal">
-            Proudly supported by these amazing partners who make this celebration possible
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
-            {[1, 2, 3].map((sponsor) => (
-              <div key={sponsor} className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
-                <div className="w-full h-24 bg-muted rounded-lg flex items-center justify-center">
-                  <span className="text-muted-foreground font-semibold">Sponsor {sponsor}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-          
-          <div className="text-center mt-12 reveal">
-            <p className="text-muted-foreground mb-4">Want to partner with us?</p>
-            <Link to="/contact" className="btn-festival">
-              Become a Sponsor
-            </Link>
           </div>
         </div>
       </section>
