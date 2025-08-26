@@ -123,9 +123,9 @@ const About: React.FC = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Interested in sponsoring our events or collaborating with Day and Night events? We'd love to hear from you!
           </p>
-          <button className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          {/* <button className="bg-white text-festival-red font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             Contact Our Team
-          </button>
+          </button> */}
         </div>
       </section>
     </div>

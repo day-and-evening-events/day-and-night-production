@@ -113,7 +113,7 @@ const Team: React.FC = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Passionate about events and cultural experiences? We're always looking for talented individuals to join our growing team.
           </p>
-          <button className="btn-festival">View Open Positions</button>
+          {/* <button className="btn-festival">View Open Positions</button> */}
         </div>
       </section>
     </div>
