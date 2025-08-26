@@ -91,13 +91,38 @@ const Home: React.FC = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
-            {[1, 2, 3].map((sponsor) => (
-              <div key={sponsor} className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
-                <div className="w-full h-24 bg-muted rounded-lg flex items-center justify-center">
-                  <span className="text-muted-foreground font-semibold">Sponsor {sponsor}</span>
-                </div>
+            <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-yellow/20">
+                <img 
+                  src="/festival/logo.jpg" 
+                  alt="Main Sponsor"
+                  className="w-full h-full object-cover"
+                />
               </div>
-            ))}
+              <h3 className="text-center mt-4 font-semibold text-lg">Title Sponsor</h3>
+            </div>
+            
+            <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-pink/20">
+                <img 
+                  src="/festival/logo_new.jpg" 
+                  alt="Partner Sponsor"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-center mt-4 font-semibold text-lg">Event Partner</h3>
+            </div>
+            
+            <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-cyan/20">
+                <img 
+                  src="/festival/wallpaper.jpeg" 
+                  alt="Media Partner"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-center mt-4 font-semibold text-lg">Media Partner</h3>
+            </div>
           </div>
           
           <div className="text-center mt-12 reveal">
