@@ -122,10 +122,10 @@ const Home: React.FC = () => {
             Proudly supported by these amazing partners who make this celebration possible
           </p>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((sponsor) => (
-              <div key={sponsor} className="festival-card p-6 hover:scale-105 transition-transform duration-300 reveal">
-                <div className="w-full h-20 bg-muted rounded-lg flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
+            {[1, 2, 3].map((sponsor) => (
+              <div key={sponsor} className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
+                <div className="w-full h-24 bg-muted rounded-lg flex items-center justify-center">
                   <span className="text-muted-foreground font-semibold">Sponsor {sponsor}</span>
                 </div>
               </div>
