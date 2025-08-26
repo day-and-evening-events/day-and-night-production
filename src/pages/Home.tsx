@@ -94,43 +94,43 @@ const Home: React.FC = () => {
             <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-yellow/20">
                 <img 
-                  src="/festival/logo.jpg" 
+                  src="/festival/parag.jpeg" 
                   alt="Main Sponsor"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-center mt-4 font-semibold text-lg">Title Sponsor</h3>
+              <h3 className="text-center mt-4 font-semibold text-lg">Associate Sponsor</h3>
             </div>
             
             <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-pink/20">
                 <img 
-                  src="/festival/logo_new.jpg" 
+                  src="/festival/choco_frills.jpeg" 
                   alt="Partner Sponsor"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-center mt-4 font-semibold text-lg">Event Partner</h3>
+              <h3 className="text-center mt-4 font-semibold text-lg">Associate Sponsor</h3>
             </div>
             
             <div className="festival-card p-8 hover:scale-105 transition-transform duration-300 reveal">
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-white shadow-lg border-4 border-festival-cyan/20">
                 <img 
-                  src="/festival/wallpaper.jpeg" 
+                  src="/festival/drip_inn.png" 
                   alt="Media Partner"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-center mt-4 font-semibold text-lg">Media Partner</h3>
+              <h3 className="text-center mt-4 font-semibold text-lg">Associate Sponsor</h3>
             </div>
           </div>
           
-          <div className="text-center mt-12 reveal">
+          {/* <div className="text-center mt-12 reveal">
             <p className="text-muted-foreground mb-4">Want to partner with us?</p>
             <Link to="/contact" className="btn-festival">
               Become a Sponsor
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
