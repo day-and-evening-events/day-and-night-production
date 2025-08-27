@@ -78,9 +78,6 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-10 h-10 text-white" />
-        </div>
       </section>
 
       {/* Countdown Timer Section */}
