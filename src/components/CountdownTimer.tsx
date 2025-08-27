@@ -32,37 +32,33 @@ const CountdownTimer: React.FC = () => {
   const formatTime = (value: number) => value.toString().padStart(2, '0');
 
   return (
-    <div className="festival-card p-6 bg-gradient-to-br from-festival-pink/10 to-festival-purple/10 border-2 border-festival-yellow/20">
-      <div className="flex items-center justify-center gap-2 mb-4">
-        <Clock className="w-6 h-6 text-festival-pink" />
-        <h3 className="text-xl font-bold text-foreground">Event Countdown</h3>
+    <div className="fixed top-4 right-4 z-50 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border-2 border-festival-yellow/30 p-4 max-w-xs">
+      <div className="flex items-center gap-2 mb-3">
+        <Clock className="w-4 h-4 text-festival-pink" />
+        <h3 className="text-sm font-bold text-foreground">Event Countdown</h3>
       </div>
       
-      <div className="grid grid-cols-3 gap-4 text-center">
-        <div className="bg-white/50 rounded-lg p-3">
-          <div className="text-2xl md:text-3xl font-bold text-festival-pink">
+      <div className="grid grid-cols-3 gap-2 text-center">
+        <div className="bg-festival-pink/10 rounded-lg p-2">
+          <div className="text-lg font-bold text-festival-pink">
             {formatTime(timeLeft.days)}
           </div>
-          <div className="text-sm text-muted-foreground font-medium">DAYS</div>
+          <div className="text-xs text-muted-foreground font-medium">DAYS</div>
         </div>
         
-        <div className="bg-white/50 rounded-lg p-3">
-          <div className="text-2xl md:text-3xl font-bold text-festival-purple">
+        <div className="bg-festival-purple/10 rounded-lg p-2">
+          <div className="text-lg font-bold text-festival-purple">
             {formatTime(timeLeft.hours)}
           </div>
-          <div className="text-sm text-muted-foreground font-medium">HOURS</div>
+          <div className="text-xs text-muted-foreground font-medium">HOURS</div>
         </div>
         
-        <div className="bg-white/50 rounded-lg p-3">
-          <div className="text-2xl md:text-3xl font-bold text-festival-cyan">
+        <div className="bg-festival-cyan/10 rounded-lg p-2">
+          <div className="text-lg font-bold text-festival-cyan">
             {formatTime(timeLeft.seconds)}
           </div>
-          <div className="text-sm text-muted-foreground font-medium">SECONDS</div>
+          <div className="text-xs text-muted-foreground font-medium">SECONDS</div>
         </div>
-      </div>
-      
-      <div className="text-center mt-4">
-        <p className="text-sm text-muted-foreground">Until Lucknow ki Bollywood Dandiya Night begins!</p>
       </div>
     </div>
   );

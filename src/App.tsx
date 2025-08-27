@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import CountdownTimer from "./components/CountdownTimer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Team from "./pages/Team";
@@ -23,6 +24,7 @@ const App = () => (
       <BrowserRouter>
         <div className="flex flex-col min-h-screen bg-gradient-to-br from-festival-pink/5 via-festival-yellow/5 to-festival-cyan/5">
           <Navbar />
+          <CountdownTimer />
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
