@@ -3,6 +3,7 @@ import { ArrowDown, Music, Users, Star, Award, MapPin, Video, Image, Calendar } 
 import { Link } from 'react-router-dom';
 import Gallery from '../components/Gallery';
 import FireworksAnimation from '../components/FireworksAnimation';
+import CountdownTimer from '../components/CountdownTimer';
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -79,6 +80,15 @@ const Home: React.FC = () => {
         </div>
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
           <ArrowDown className="w-10 h-10 text-white" />
+        </div>
+      </section>
+
+      {/* Countdown Timer Section */}
+      <section className="py-12 bg-gradient-to-br from-festival-yellow/5 to-festival-pink/5">
+        <div className="container mx-auto px-4">
+          <div className="max-w-md mx-auto">
+            <CountdownTimer />
+          </div>
         </div>
       </section>
 
