@@ -47,7 +47,7 @@ const Team: React.FC = () => {
     },
     {
       name: "Saakhi Sharma",
-      role: "Project Designer",
+      role: "Production Designer",
       bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
       image: "/festival/sakhi.jpeg"
     },
