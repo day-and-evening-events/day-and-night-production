@@ -46,6 +46,12 @@ const Team: React.FC = () => {
       image: "/festival/barya_brdr.jpeg"
     },
     {
+      name: "Prateek Awasthi",
+      role: "Tech Manager",
+      bio: "Ensures reliability of all technical systems and manages live-event tech support.",
+      image: "/festival/prateek.jpeg"
+    },
+    {
       name: "Saakhi Sharma",
       role: "Production Designer",
       bio: "Talented designer with an eye for aesthetics who creates visually stunning event environments that capture our cultural essence.",
@@ -57,13 +63,6 @@ const Team: React.FC = () => {
       bio: "Responsible for driving marketing campaigns and coordinating event logistics for seamless execution.",
       image: "/festival/prakhar.jpeg"
     },
-    {
-      name: "Prateek Awasthi",
-      role: "Tech Manager",
-      bio: "Ensures reliability of all technical systems and manages live-event tech support.",
-      image: "/festival/prateek.jpeg"
-    },
-
   ];
 
   return (
